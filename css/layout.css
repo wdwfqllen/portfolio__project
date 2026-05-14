@@ -1,0 +1,93 @@
+.header__wrapper {
+                display: flex;
+}
+
+.header__user {
+                display: flex;
+}
+
+.header__menu {
+                display: none;
+}
+
+@media (max-width:960px) {
+                .header__menu {
+                                display: block;
+                }
+}
+
+.hero__container {
+                display: flex;
+}
+
+@media (max-width:1200px) {
+                .hero__container {
+                                flex-direction: column;
+                }
+}
+
+.hero__content {
+                display: flex;
+}
+
+/*button*/
+.hero__actions {
+                display: flex;
+}
+
+.hero__image {
+                display: flex;
+}
+
+/*footer*/
+
+/*первый блок*/
+.footer__top {
+                display: flex;
+}
+
+@media (max-width:760px) {
+                .footer__top {
+                                flex-direction: column;
+                }
+}
+
+.footer__content {
+                display: flex;
+}
+
+
+.footer__socials {
+                display: flex;
+}
+
+.footer__social-link {
+                display: flex;
+}
+
+/*второй блок*/
+.footer__column {
+                display: flex;
+}
+
+.footer__list {
+                display: flex;
+                flex-direction: column;
+}
+
+.footer__details {
+                display: flex;
+                flex-direction: column;
+}
+
+/*нижний блок*/
+.footer__bottom {
+                display: flex;
+}
+
+@media (max-width:760px) {
+
+                .footer__content {
+                                flex-direction: column;
+                }
+}

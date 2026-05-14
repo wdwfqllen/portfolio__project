@@ -1,0 +1,36 @@
+:root {
+                --color-primary: #6C38CC;
+                --color-ghost: #E47AD5;
+                --color-link-hover: #AFB2BF;
+                --color-bg: #16171D;
+                --color-bg-medium: #1E1F29;
+                --color-bg-light: #2E2D3D;
+                --color-text: #FAFAFA;
+                --color-stroke: #4D5064;
+                --layout-width: 1172px;
+                --color-text-2: #AFB2BF;
+
+}
+
+html {
+                box-sizing: border-box;
+
+}
+
+body {
+                background-color: var(--color-bg);
+                margin: 0;
+                padding: 0;
+                font-family: "Fira Sans", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+
+}
+
+ul {
+                list-style-type: none;
+}
+
+a {
+                text-decoration: none;
+}
