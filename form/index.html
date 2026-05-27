@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+
+<body>
+                <main class="form-container">
+                                <h1>Регистрация</h1>
+                                <form action="http://localhost:3000/users" method="post">
+                                                <div class="field">
+                                                                <img src="images/Vector.svg" alt="">
+                                                                <label for="e-mail" id="email">E-mail*</label>
+                                                                <div class="input-wrapper">
+                                                                                <input type="email" id="e-mail"
+                                                                                                name="email" required>
+                                                                </div>
+                                                </div>
+
+                                                <div class="field">
+                                                                <img src="images/tg.svg" alt="">
+                                                                <label for="tg-account">Telegram</label>
+                                                                <div class="input-wrapper">
+                                                                                <input type="text" id="tg-account"
+                                                                                                name="telegram"
+                                                                                                placeholder="@username">
+                                                                </div>
+                                                </div>
+
+                                                <div class="field">
+                                                                <img src="images/com.svg" alt="">
+                                                                <label for="choice">Тема*</label>
+                                                                <div class="input-wrapper">
+                                                                                <select name="courses" id="choice">
+                                                                                                <option value="frotend">
+                                                                                                                html+CSS
+                                                                                                </option>
+                                                                                                <option value="js">
+                                                                                                                JavaScript
+                                                                                                </option>
+                                                                                                <option value="react">
+                                                                                                                React-разработчик
+                                                                                                </option>
+                                                                                </select>
+                                                                </div>
+                                                </div>
+
+                                                <div class="field">
+                                                                <label for="comm">Комментарий</label>
+                                                                <textarea name="comment" id="comm" rows="4"
+                                                                                placeholder="Ваш текст..."></textarea>
+                                                </div>
+
+                                                <button type="submit" class="submit-btn">Отправить</button>
+                                </form>
+                </main>
+</body>
+
+</html>
