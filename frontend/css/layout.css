@@ -39,6 +39,25 @@
                 display: flex;
 }
 
+
+
+/* course */
+.course__text {
+                display: flex;
+                flex-direction: column;
+}
+
+.course__categories {
+                display: flex;
+}
+
+.course__catalog {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+
 /*footer*/
 
 /*первый блок*/
