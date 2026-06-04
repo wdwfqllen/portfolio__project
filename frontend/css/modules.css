@@ -22,7 +22,7 @@
 
 @media (max-width:960px) {
                 .header__logo {
-                                max-width: 174px;
+                                height: 36px;
                 }
 
                 .header__user {
@@ -104,19 +104,6 @@
                 }
 }
 
-.hero__title {
-                font-size: 52px;
-                line-height: 100%;
-                font-weight: 700;
-}
-
-@media (max-width: 640px) {
-                .hero__title {
-                                font-size: 28px;
-                                line-height: 120%;
-                }
-}
-
 .hero__title-base {
                 color: var(--color-text);
                 font-weight: 700;
@@ -124,6 +111,13 @@
                 font-size: 54px;
                 line-height: 100%;
 
+}
+
+@media (max-width: 640px) {
+                .hero__title-base {
+                                font-size: 28px;
+                                line-height: 120%;
+                }
 }
 
 .hero__title-gradient {
@@ -136,6 +130,13 @@
                 font-size: 54px;
                 line-height: 100%;
 
+}
+
+@media (max-width: 640px) {
+                .hero__title-gradient {
+                                font-size: 28px;
+                                line-height: 120%;
+                }
 }
 
 /*button*/
@@ -159,11 +160,7 @@
 
 }
 
-@media (max-width:640px) {
-                .button--primary {
-                                padding: 12px 24px;
-                }
-}
+
 
 .button--ghost {
                 padding: 16px 32px;
@@ -174,14 +171,15 @@
 }
 
 @media (max-width:640px) {
-                .button--ghost {
+                .button {
                                 padding: 12px 24px;
                 }
 }
 
-@media (max-width:500px) {
+@media (max-width:640px) {
                 .hero__image {
-                                max-width: 100%;
+                                height: 176px;
+                                margin: 0;
                 }
 }
 
@@ -223,6 +221,8 @@
 .course__categories {
                 gap: 24px;
                 margin-bottom: 32px;
+                overflow: auto;
+                margin-right: -24px;
 }
 
 .course__btn {
@@ -232,6 +232,8 @@
                 border: 1px solid var(--color-stroke);
                 border-radius: 10px;
                 background: none;
+                white-space: nowrap;
+
 }
 
 .course__btn:hover {
